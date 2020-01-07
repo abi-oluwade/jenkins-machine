@@ -6,7 +6,7 @@ been committed to that branch.
 
 ## What is it and what is it for?
 
-Jenkins helps you automate your workflow.
+Jenkins is an open-source continuous integration software tool written in the Java programming language for testing and reporting on isolated changes in a larger code base in real time. The software enables developers to find and solve defects in a code base rapidly and to automate testing of their builds.
 
 Say you develop a software. You might have unit tests bundled in your software. A Jenkins job could watch your software's git repository and run these tests for you, like you would do manually, whenever a new commit is pushed.
 
