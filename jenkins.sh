@@ -7,17 +7,17 @@ echo "Updating apt-get"
 sudo apt-get -qq update
 
 echo "Installing default-java"
-sudo apt-get -y install default-jre > /dev/null 2>&1
-sudo apt-get -y install default-jdk > /dev/null 2>&1
+sudo apt-get -y install default-jre
+sudo apt-get -y install default-jdk
 
 echo "Installing git"
-sudo apt-get -y install git > /dev/null 2>&1
+sudo apt-get -y install git
 
 echo "Installing git-ftp"
-sudo apt-get -y install git-ftp > /dev/null 2>&1
+sudo apt-get -y install git-ftp
 
 echo "Installing jenkins"
-sudo apt-get -y install jenkins > /dev/null 2>&1
+sudo apt-get -y install jenkins
 sudo service jenkins start
 
 sleep 1m
